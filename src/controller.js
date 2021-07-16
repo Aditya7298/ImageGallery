@@ -1,6 +1,6 @@
 import { Model } from "./model.js";
 import { View } from "./view.js";
-import { USERACTION } from "./constants";
+import { USERACTION } from "./constants.js";
 
 class Controller {
   constructor(imageStore, selectedImageId) {

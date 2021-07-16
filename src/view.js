@@ -1,6 +1,6 @@
-import { Sidebar } from "./views/sidebar";
-import { DisplayContainer } from "./views/displayContainer";
-import { USERACTION } from "./constants";
+import { Sidebar } from "./views/sidebar.js";
+import { DisplayContainer } from "./views/displayContainer.js";
+import { USERACTION } from "./constants.sj";
 
 class View {
   constructor(previewSelectionCallback, captionChangeCallback) {

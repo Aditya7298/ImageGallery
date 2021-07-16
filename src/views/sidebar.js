@@ -1,5 +1,5 @@
-import { binarySearchTruncate, eventDeboune } from "../utils";
-import { USERACTION } from "../constants";
+import { binarySearchTruncate, eventDeboune } from "../utils.js";
+import { USERACTION } from "../constants.js";
 
 class Sidebar {
   render(imageList, selectedImageId) {
