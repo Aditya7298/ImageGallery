@@ -1,4 +1,4 @@
-import { USERACTION } from "../constants/js";
+import { USERACTION } from "../constants.js";
 
 class DisplayContainer {
   render(imageSrc, imageCaption) {
